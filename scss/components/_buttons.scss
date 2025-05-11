@@ -1,0 +1,44 @@
+.btn {
+  padding: 2.5rem 4.5rem;
+  color: white;
+  background-color: #5e54a4;
+  box-shadow: 0px 8px 0px 0px #00000025;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  letter-spacing: 0.27px;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.btn-strong {
+  font-weight: 700;
+  letter-spacing: 0.27px;
+}
+
+@media screen and (max-width: 375px) {
+  .btn {
+    padding: 1.8rem 6.6rem 1.8rem 6.7rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .btn--titl {
+    padding: 1.5rem 4.9rem 9rem 4.9rem;
+  }
+}
+
+.btn--titl {
+  width: 100%;
+  color: white;
+  background-color: #38cc8b;
+  box-shadow: 0px -4px 0px 0px #38cc8b inset;
+  border-radius: 0.5rem;
+  border: #38cc8b;
+  padding: 2.2rem 4.9rem 2.1rem 4.9rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  &:hover {
+    background-color: #77e2b3;
+  }
+}

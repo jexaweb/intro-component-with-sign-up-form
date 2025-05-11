@@ -9,8 +9,15 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
 ul,
 ol {
   list-style: none;
@@ -23,17 +30,19 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-image: url("../img/Group 5-1.png");
+  font-family: "Poppins", sans-serif;
 }
 
 main {
   flex-grow: 1;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-}
+// .container {
+//   width: 100%;
+//   max-width: 1200px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-left: 50px;
+//   padding-right: 50px;
+// }

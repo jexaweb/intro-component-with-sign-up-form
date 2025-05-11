@@ -1,0 +1,123 @@
+.div--cpmtinar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+  margin: auto;
+  margin-right: 16.5rem;
+  margin-left: 16.5rem;
+}
+.div--aycn {
+}
+.aycn--name {
+  font-weight: 700;
+  font-size: 5rem;
+  //   line-height: 1.9rem;
+  letter-spacing: -0.25px;
+  color: white;
+  margin-bottom: 1.1rem;
+}
+.aycn--titl {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: white;
+}
+.taype {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  margin-top: 2.4rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 4rem 4rem;
+}
+.taype input[type="text "],
+input[type="text "],
+input[type="email "],
+input[type="password "] {
+  display: flex;
+  margin-bottom: 2rem;
+  //   border: 1px solid #dedede;
+  //   width: 100%;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  letter-spacing: 0.25px;
+  border: none;
+  border: 1px solid #dedede;
+  border-radius: 0.5rem;
+  outline: none;
+  color: #3d3b48;
+  padding: 1.7rem 23.2rem 1.7rem 4rem;
+}
+
+.form--titl {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  color: #bab7d4;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.form--titl strong {
+  font-weight: 700;
+  color: #ff7979;
+}
+
+@media screen and (max-width: 375px) {
+  .div--cpmtinar {
+    flex-direction: column;
+    margin-top: 8.8rem;
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .aycn--name {
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+    letter-spacing: -0.28px;
+    margin-bottom: 1.6rem;
+  }
+
+  .aycn--titl {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .form {
+    margin-top: 2.4rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2.4rem 2.4rem;
+    width: 327px;
+    height: 442px;
+    margin-bottom: 6.8rem;
+  }
+  .taype input[type="text "],
+  input[type="text "],
+  input[type="email "],
+  input[type="password "] {
+    display: flex;
+    margin-bottom: 2rem;
+
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1rem;
+    letter-spacing: 0.25px;
+    border: none;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    outline: none;
+    color: #3d3b48;
+    padding: 1.7rem 7.6rem 1.7rem 1.5rem;
+  }
+  .form--titl strong {
+    font-weight: 700;
+    color: #ff7979;
+  }
+}
